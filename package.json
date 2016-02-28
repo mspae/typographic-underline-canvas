@@ -1,6 +1,6 @@
 {
   "name": "typographic-underline-canvas",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typographically correct underlines with canvas rendering",
   "main": "build/bundle.js",
   "scripts": {
