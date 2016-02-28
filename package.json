@@ -1,7 +1,7 @@
 {
-  "name": "typographic-underline",
-  "version": "0.1.0",
-  "description": "Typographically correct stylable underlines",
+  "name": "typographic-underline-canvas",
+  "version": "0.1.1",
+  "description": "Typographically correct underlines with canvas rendering",
   "main": "build/bundle.js",
   "scripts": {
     "start": "gulp watch",
@@ -16,6 +16,7 @@
   ],
   "author": "Martin Spencer <mail@martinspencer.de>",
   "license": "ISC",
+  "repository": "git+https://github.com/mspae/typographic-underline-canvas",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babelify": "^7.2.0",
