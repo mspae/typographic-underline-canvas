@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typographic Underline Canvas Example</title>
+  <style type="text/css">
+    body {
+      font-family: serif, arial, sans-serif;
+      font-size: 30px;
+      line-height: 1.6em;
+      color: #555;
+      text-align: left;
+
+    }
+    .container {
+      margin: 2em auto;
+      max-width: 30em;
+    }
+    .example-lg {
+      font-size: 1.75em;
+      line-height: 1.6em;
+    }
+    .example-md {
+      font-size: 1em;
+      line-height: 1.6em;
+    }
+    .example-sm {
+      font-size: 0.75em;
+      line-height: 1.6em;
+    }
+    .example-xs {
+      font-size: 0.5em;
+      line-height: 1.6em;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1 class="bold-underline">Typographic underline</h1>
+    </header>
+    <article class="simple-example">
+      <p class="example-lg">Morbi auctor <span class="simple-underline">pellentesque</span> ante, eu tincidunt sapien posuere eu. <span class="simple-underline">Praesent et ligula magna. Proin aliquet neque a risus laoreet, vel rhoncus diam viverra.</span></p>
+      <p class="example-md">Morbi auctor <span class="simple-underline">pellentesque</span> ante, eu tincidunt sapien posuere eu. <span class="simple-underline">Praesent et ligula magna. Proin aliquet neque a risus laoreet, vel rhoncus diam viverra.</span></p>
+      <p class="example-sm">Morbi auctor <span class="simple-underline">pellentesque</span> ante, eu tincidunt sapien posuere eu. <span class="simple-underline">Praesent et ligula magna. Proin aliquet neque a risus laoreet, vel rhoncus diam viverra.</span></p>
+      <p class="example-xs">Morbi auctor <span class="simple-underline">pellentesque</span> ante, eu tincidunt sapien posuere eu. <span class="simple-underline">Praesent et ligula magna. Proin aliquet neque a risus laoreet, vel rhoncus diam viverra.</span></p>
+    </article>
+  </div>
+
+  <script src="build/bundle.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      var simpleUnderline = new TypographicUnderline('.simple-underline')
+
+      console.log(document.querySelector('.simple-example').getBoundingClientRect().top)
+    })
+  </script>
+</body>
+</html>

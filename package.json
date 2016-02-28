@@ -1,0 +1,43 @@
+{
+  "name": "typographic-underline",
+  "version": "1.0.0",
+  "description": "Typographically correct stylable underlines",
+  "main": "build/bundle.js",
+  "scripts": {
+    "start": "gulp watch",
+    "serve": "gulp serve",
+    "format": "standard-format -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "underline",
+    "typography",
+    "font"
+  ],
+  "author": "Martin Spencer <mail@martinspencer.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "detect-zoom": "^1.0.2",
+    "express": "^4.13.4",
+    "font-baseline": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-standard": "^5.2.2",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "standard-format": "^2.1.0",
+    "throttle-debounce": "^0.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "lodash.assign": "^4.0.2"
+  }
+}
