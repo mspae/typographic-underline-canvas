@@ -1,6 +1,6 @@
 {
   "name": "typographic-underline",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Typographically correct stylable underlines",
   "main": "build/bundle.js",
   "scripts": {
